@@ -1,5 +1,5 @@
 {
-  "name": "where-is-tom",
+  "name": "wherestom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LevinWeinstein/WheresTom/issues"
   },
-  "homepage": "https://github.com/LevinWeinstein/WheresTom#readme"
+  "homepage": "https://github.com/LevinWeinstein/WheresTom#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }

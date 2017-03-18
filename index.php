@@ -9,7 +9,8 @@
 </head>
 <body>
 	<div>
-		
+		<input type="text">
+		<input type="text">
 	</div>
 </body>
 </html>
