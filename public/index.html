@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MY APP</title>
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+<div class="main-wrapper">
+	<div class="login loginform">
+		<form method="GET">
+			<a class="login-logo" href="/"><img src="img/wherestom-logo.png" alt="Wesaturate logo" class="login-logo"></a>
+			<div class="email">
+				<div>
+					<input type="text" name="loginemail" placeholder="email / username">
+				</div>
+			</div>
+			<div class="password">
+				<div>
+					<input autocomplete="off" type="password" name="password" placeholder="password">
+					<label class="error">Invalid login information</label>
+				</div>
+				<p class="forgot-link"><a href="/forgot">Forgot password</a></p>
+			</div>
+			<div class="submit">
+				<button class="common-button">Login</button>
+			</div>
+			<div>
+				<p>Don't have an account? <a href="/join">Join!</a></p>
+			</div>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
