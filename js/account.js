@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$('.check-box button').click(function () {
+	$(document).on('click', 'button', function () {
 		var b = $(this);
 		if (b.html() != 'Done!') {
 			b.html('Done!');
@@ -17,7 +17,9 @@ $(document).ready(function () {
 			$.ajax({
 				url: '/php/checkin.php',
 				data: {
-					checkin: true
+					checkin: true,
+					x: b.data('x'),
+					y: b.data('y')
 				},
 				type: 'post'
 			});

@@ -17,6 +17,19 @@
 	top: 200px;
 	transform: translate(-50%, 0);
 }
+.check-box{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	font-size: 10px;
+}
+.check-box p{
+	font-size: 14px;
+	color: #444;
+	font-weight: 300;
+	margin-top: 15px;
+}
 .check-box button{
 	background-color: #69F0AE;
 	padding: 10px 26px;
@@ -26,4 +39,5 @@
 	font-size: 13px;
 	position: relative;
 	color: white;
+	display: none;
 }
