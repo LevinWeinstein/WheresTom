@@ -1,29 +1,41 @@
 <?php
-$data = file_get_contents("php://input");
 header('Content-Type: application/json;charset=UTF-8');
 $EchoJArray = json_decode(file_get_contents('php://input'));
 $RequestType = $EchoJArray->request->type;
 
-
-
-$JsonOut 	= GetJsonMessageResponse($RequestType,$EchoJArray);
-$size 		= strlen($JsonOut);
+//$JsonOut = GetJsonMessageResponse($RequestType, $EchoJArray);
+$size = strlen($JsonOut);
 header('Content-Type: application/json');
 header("Content-length: $size");
-echo $JsonOut;
+//echo $JsonOut;
+
+$text = '{
+    "version" : "1.0",
+    "response" : {
+        "outputSpeech" : {
+            "type" : "PlainText",
+            "text" : "Test Response"
+        },
+        "shouldEndSession" : false
+    }
+}';
+//header('Content-Length: ' . strlen($text));
+echo $text;
+
+//echo "This is some sort of test";
 
 //-----------------------------------------------------------------------------------------//
 //					     Some functions
 //-----------------------------------------------------------------------------------------//
 
 //This function returns a json blob for output
-function GetJsonMessageResponse($RequestMessageType,$EchoJArray){
+function GetJsonMessageResponse($RequestMessageType, $EchoJArray) {
 
 	$RequestId = $EchoJArray->request->requestId;
 	$ReturnValue = "";
-	
-	if( $RequestMessageType == "LaunchRequest" ){
-		$ReturnValue= '
+
+	if ($RequestMessageType == "LaunchRequest") {
+		$ReturnValue = '
 		{
 		  "version": "1.0",
 		  "sessionAttributes": {
@@ -54,9 +66,8 @@ function GetJsonMessageResponse($RequestMessageType,$EchoJArray){
 		  }
 		}';
 	}
-	
-	if( $RequestMessageType == "SessionEndedRequest" )
-	{
+
+	if ($RequestMessageType == "SessionEndedRequest") {
 		$ReturnValue = '{
 		  "type": "SessionEndedRequest",
 		  "requestId": "$RequestId",
@@ -64,28 +75,26 @@ function GetJsonMessageResponse($RequestMessageType,$EchoJArray){
 		  "reason": "USER_INITIATED "
 		}
 		';
-		
+
 	}
-	
-	if( $RequestMessageType == "IntentRequest" ){
-	
+
+	if ($RequestMessageType == "IntentRequest") {
+
 		$NextNumber = 0;
 		$EndSession = "false";
 		$SpeakPhrase = "The next number is ";
-		if( $EchoJArray->request->intent->name == "next" )
-		{
+		if ($EchoJArray->request->intent->name == "next") {
 			$NextNumber = $EchoJArray->session->attributes->countActionList->currentStep + 1;
 			$SpeakPhrase = "The next number is $NextNumber";
-			
-			if( $EchoJArray->session->attributes->countActionList->currentStep == 3 )
-			{
+
+			if ($EchoJArray->session->attributes->countActionList->currentStep == 3) {
 				$EndSession = "true";
 				$SpeakPhrase = "Thank you for counting and good bye";
 			}
 		}
-		
-	
-		$ReturnValue= '
+
+
+		$ReturnValue = '
 		{
 		  "version": "1.0",
 		  "sessionAttributes": {
@@ -93,7 +102,7 @@ function GetJsonMessageResponse($RequestMessageType,$EchoJArray){
 			  "read": true,
 			  "category": true,
 			  "currentTask": "none",
-			  "currentStep": '.$NextNumber.'
+			  "currentStep": ' . $NextNumber . '
 			}
 		  },
 		  "response": {
