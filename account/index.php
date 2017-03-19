@@ -42,8 +42,29 @@ $stmt->close();
 		<div class="check-box">
 			<button><?php if ($punches % 2 == 0) echo "Punch in"; else echo "Punch out"; ?></button>
 		</div>
+		<div id="demo">
+
+		</div>
 	</div>
 </div>
+
+<script>
+	var x = document.getElementById("demo");
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition);
+		} else {
+			x.innerHTML = "Geolocation is not supported by this browser.";
+		}
+	}
+	function showPosition(position) {
+		x.innerHTML = "Latitude: " + position.coords.latitude +
+			"<br>Longitude: " + position.coords.longitude;
+	}
+	getLocation();
+</script>
+
+
 <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
 <script src="/js/account.js"></script>
 </body>

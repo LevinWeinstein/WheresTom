@@ -1,11 +1,8 @@
 <?php
 
-$db = mysqli_connect('localhost', 'root', 'password', 'wherestom');
-if (developmentEnvironment()){
-	echo 'hi';
+$db = mysqli_connect('localhost', 'kash_wherestom', 'Wherestom10', 'kash_wherestom');
+if (developmentEnvironment()) {
 	$db = mysqli_connect('wherestom:8889', 'root', 'root', 'wherestom');
-}else{
-	echo 'no';
 }
 
 function developmentEnvironment() {
