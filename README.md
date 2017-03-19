@@ -1,5 +1,5 @@
-# Where is Tom? [ www.whereistom.co ]
-The github repository for the whereistom.co website, made for the AEC Hackathon in Seattle, 2017.
+# Where's Tom? [ www.wherestom.co ]
+The github repository for the wherestom.co website, made for the AEC Hackathon in Seattle, 2017.
 
 ## Made By:
 LevinWeinstein  [Levin Weinstein]<p>
