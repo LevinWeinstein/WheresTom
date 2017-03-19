@@ -2,34 +2,52 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Where's Tom?</title>
 	
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/index.css" type="text/css">
+
 </head>
 <body>
 <div class="main-wrapper">
-	<div class="login loginform">
-		<form method="POST" action="/login">
-			<a class="login-logo" href="/"><img src="img/wherestom-logo.png" alt="Where't Tom logo" class="login-logo"></a>
-			<div class="email">
-				<div>
-					<input type="text" name="email" placeholder="email / username">
-				</div>
-			</div>
-			<div class="password">
-				<div>
-					<input autocomplete="off" type="password" name="password" placeholder="password">
-					<p class="error">Incorrect password</p>
-				</div>
-			</div>
-			<div class="submit">
-				<button class="login-button">Login</button>
-			</div>
-		</form>
+	<div class="nav">
+		<img src="/img/wherestom-white.svg" alt="">
+		<a href="/login">Login</a>
+	</div>
+	<div class="top-display">
+		<div>
+			<h1>Where's Tom?</h1>
+			<h2>Alexa Skill that keeps track of employee information</h2>
+		</div>
+	</div>
+	<div class="try-quotes section">
+		<div>
+			<img src="/img/echo.svg" alt="">
+		</div>
+		<ul>
+			<li>Where is Tom?</li>
+			<li>Is Tom at work?</li>
+			<li>Who is not at work?</li>
+			<li>What's Tom's phone number?</li>
+		</ul>
+	</div>
+	<div class="functionality section">
+		<div>
+			<h1>What does it do?</h1>
+			<p>This Alexa Skill controls a database of employees. It can give information such an employee's location,
+				whether or not an employee is at work, and even an employee's phone number. Employees can clock in and
+				out by going to their
+				<a href="/login">account</a>.</p>
+		</div>
+	</div>
+	<div class="history section">
+		<div>
+			<h1>About Us</h1>
+			<p>Where's Tom was developed by a team of engineers at the AEC hackaton in Seattle. Engineers: Kash, Saam,
+				Levin, Zeid, and Ron. Shout out to Paul for keeping it real.</p>
+		</div>
 	</div>
 </div>
-<script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
-<script src='/js/index.js'></script>
 </body>
 </html>

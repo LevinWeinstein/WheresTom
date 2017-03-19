@@ -2279,11 +2279,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/phpmyadmin/view_create.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/phpmyadmin/view_operations.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alexa.php" afterPath="$PROJECT_DIR$/alexa.php" />
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 >>>>>>> kash
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/dbcon.php" afterPath="$PROJECT_DIR$/php/dbcon.php" />
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -2300,6 +2303,13 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+=======
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -2320,6 +2330,7 @@
                 <state relative-caret-position="525">
                   <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
 >>>>>>> kash
+>>>>>>> master
                   <folding />
                 </state>
               </provider>
@@ -2336,8 +2347,12 @@
                     <marker date="1489887952000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
 =======
                 <state relative-caret-position="966">
-                  <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+                  <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding>
+<<<<<<< HEAD
+                    <marker date="1489887860000" expanded="true" signature="171:217" ph="SELECT passw... users" />
+                    <marker date="1489887860000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
+=======
                     <marker date="1489879296000" expanded="true" signature="171:217" ph="SELECT passw... users" />
                     <marker date="1489879296000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
                     <marker date="1489879296000" expanded="true" signature="631:1292" ph="..." />
@@ -2348,6 +2363,7 @@
                     <marker date="1489879296000" expanded="true" signature="1076:1267" ph="..." />
                     <marker date="1489879296000" expanded="true" signature="1163:1264" ph="..." />
 >>>>>>> kash
+>>>>>>> master
                   </folding>
                 </state>
               </provider>
@@ -2397,9 +2413,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dbcon.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dbcon.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/php/dbcon.php">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="357">
+                  <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+=======
 <<<<<<< HEAD
                 <state relative-caret-position="294">
                   <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
@@ -2409,6 +2429,7 @@
 =======
                 <state relative-caret-position="147">
                   <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+>>>>>>> master
                   <folding />
 >>>>>>> kash
                 </state>
@@ -2421,8 +2442,12 @@
 <<<<<<< HEAD
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 =======
+<<<<<<< HEAD
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
         <leaf>
 >>>>>>> kash
+>>>>>>> master
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -2508,7 +2533,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/public/css/reset.css" />
@@ -2533,7 +2557,11 @@
         <option value="$PROJECT_DIR$/alexa.php" />
 =======
         <option value="$PROJECT_DIR$/php/dbcon.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/index.php" />
+=======
 >>>>>>> kash
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -2599,6 +2627,8 @@
           </PATH>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="wherestom" />
@@ -2628,6 +2658,7 @@
             </PATH_ELEMENT>
           </PATH>
 >>>>>>> kash
+>>>>>>> master
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -3239,17 +3270,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489813329411</updated>
+<<<<<<< HEAD
+      <workItem from="1489813330936" duration="12704000" />
+      <workItem from="1489887937550" duration="12000" />
+=======
       <workItem from="1489813330936" duration="13242000" />
       <workItem from="1489882023380" duration="1229000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+    <option name="totallyTimeSpent" value="13429000" />
+=======
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="14660000" />
 =======
     <option name="totallyTimeSpent" value="13395000" />
 >>>>>>> kash
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -3302,6 +3342,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/php/checkin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding>
+            <marker date="1489875353000" expanded="true" signature="162:214" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1489875353000" expanded="true" signature="128:174" ph="SELECT passw... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+=======
     <entry file="file://$PROJECT_DIR$/account/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
@@ -3401,10 +3467,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/alexa.php" />
+    <entry file="file://$PROJECT_DIR$/php/dbcon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+=======
     <entry file="file://$PROJECT_DIR$/css/account.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -3425,18 +3499,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="22" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+=======
     <entry file="file://$PROJECT_DIR$/logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/nodemon" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/account/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -3518,6 +3618,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/public/css/reset.css" />
     <entry file="file://$PROJECT_DIR$/public/css/index.css" />
     <entry file="file://$PROJECT_DIR$/server.js" />
@@ -3627,15 +3728,8 @@
         <state relative-caret-position="972">
           <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
           <folding>
-            <marker date="1489879296000" expanded="true" signature="171:217" ph="SELECT passw... users" />
-            <marker date="1489879296000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
-            <marker date="1489879296000" expanded="true" signature="631:1292" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="638:1009" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="686:794" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1016:1292" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1043:1267" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1076:1267" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1163:1264" ph="..." />
+            <marker date="1489887860000" expanded="true" signature="171:217" ph="SELECT passw... users" />
+            <marker date="1489887860000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
           </folding>
         </state>
       </provider>
@@ -3741,6 +3835,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/schedule.json">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -3765,6 +3861,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/js/account.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3794,17 +3891,10 @@
           <folding />
 =======
         <state relative-caret-position="966">
-          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <marker date="1489879296000" expanded="true" signature="171:217" ph="SELECT passw... users" />
-            <marker date="1489879296000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
-            <marker date="1489879296000" expanded="true" signature="631:1292" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="638:1009" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="686:794" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1016:1292" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1043:1267" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1076:1267" ph="..." />
-            <marker date="1489879296000" expanded="true" signature="1163:1264" ph="..." />
+            <marker date="1489887860000" expanded="true" signature="171:217" ph="SELECT passw... users" />
+            <marker date="1489887860000" expanded="true" signature="416:461" ph="SELECT COUNT... punches" />
           </folding>
 >>>>>>> kash
         </state>
@@ -3870,9 +3960,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/dbcon.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="357">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+=======
         <state relative-caret-position="147">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
 >>>>>>> kash
+>>>>>>> master
           <folding />
         </state>
       </provider>
